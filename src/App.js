@@ -5,7 +5,8 @@ import './assets/css/style.css';
 function App() {
   return (
     <div className="App">
-      <h1>MoneyTracker App</h1>
+        <h1>Hello</h1>
+      <h2>MoneyTracker App</h2>
     </div>
   );
 }
