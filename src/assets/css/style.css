@@ -1,15 +1,92 @@
-* {
+*,
+*::before,
+*::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/Lato-Regular.ttf) format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/Lato-Bold.ttf) format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 
 body {
+    font-family: 'Roboto', 'Baloo Bhai', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #000000;
     background-color: rgb(120, 120, 65);
-    color: white;
+    justify-content: center;
+}
+
+/*NavBar----------------*/
+.navBar {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    background-color: #99d8fa;
+    height: 100vh;
+}
+.navBarInner {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 50px;
+}
+.logo{
+    font-family: 'Lato','Baloo Bhai', sans-serif;;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.nameLogo{
+    padding-left: 15px;
+    font-size: 18px;
+
+}
+.nav{
+    gap: 15px;
+}
+.content {
+    background-color: #d8f0fd;
+    height: 100vh;
+}
+
+/*Header------------------------*/
+header{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.balanceSum {
+    font-size: 18px;
+    font-weight: 700;
 }
