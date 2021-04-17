@@ -4,6 +4,8 @@ import './assets/css/style.css';
 // import Charges from './components/Charges';
 import NavBar from "./components/NavBar";
 import Balance from "./components/Balance";
+import Tracker from './components/Tracker';
+
 
 function App() {
   return (
@@ -21,8 +23,8 @@ function App() {
             <main className='container'>
               <div className="tab-content" id="v-pills-tabContent">
                 <article className="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                         aria-labelledby="v-pills-home-tab">Page Home
-                  {/*<Charges />*/}
+                         aria-labelledby="v-pills-home-tab">
+                  <Tracker />
                 </article>
                 <article className="tab-pane fade" id="v-pills-сharts" role="tabpanel"
                          aria-labelledby="v-pills-сharts-tab">Page Charts

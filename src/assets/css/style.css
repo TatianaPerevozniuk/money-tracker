@@ -90,3 +90,75 @@ header{
     font-size: 18px;
     font-weight: 700;
 }
+/*Main----------------------*/
+main {
+    margin-top: 100px;
+    color: rgb(85, 80, 80);
+}
+.button_panel,
+.filter {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.button_item {
+    border: none;
+    padding: 0 30px;
+    background-color: #d8f0fd;
+    color: rgb(85, 80, 80);
+    font-size: 1.2em;
+    outline: none;
+}
+
+button,
+button:active,
+button:focus {
+    border: none;
+}
+
+.button_item:active,
+.button_item:active {
+    border-bottom: solid 2px;
+    border-color: rgb(0, 140, 255);
+}
+
+.title_charges {
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+    color: rgb(85, 80, 80);
+    font-size: 1.8em;
+}
+.select_filter {
+    border: none;
+    margin-left: 20px; 
+    background-color: #d8f0fd;
+    color: rgb(85, 80, 80);
+    font-size: 1.2em;
+    font-weight: 500;
+    outline: none;
+}
+
+.add_more {
+    border: none;
+    color: #fff;
+    background-color: #0d6efd;
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    justify-content: flex-end;
+    outline: none;
+    margin-right: 100px;
+}
+
+.add_more:last-of-type{
+    margin-left: auto;
+}
+
+.add_more:active,
+.add_more:focus {
+    outline: none; 
+}
+
+
