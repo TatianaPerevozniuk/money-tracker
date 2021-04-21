@@ -1,0 +1,16 @@
+th {
+    border-left: none;
+    border-right: none;
+    color: rgb(85, 80, 80);
+    font-size: 1.1em;
+}
+
+td, tr{
+    color: rgb(85, 80, 80);
+    border: none;
+    font-size: 1em;
+}
+
+.Other-Row {
+    color: brown; 
+}
