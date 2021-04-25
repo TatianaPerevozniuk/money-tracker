@@ -1,16 +1,13 @@
-th {
-    border-left: none;
-    border-right: none;
-    color: rgb(85, 80, 80);
-    font-size: 1.1em;
+.table {
+    display: flex;
+    
 }
 
-td, tr{
-    color: rgb(85, 80, 80);
-    border: none;
-    font-size: 1em;
+.table:first-child {
+    border-top: 2px solid rgb(150, 149, 149);
+    border-bottom: 2px solid rgb(150, 149, 149);
 }
 
-.Other-Row {
-    color: brown; 
+.table__items {
+    width: 240px;
 }
